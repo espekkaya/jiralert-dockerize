@@ -1,0 +1,11 @@
+version: '2'
+services:
+  jiralert-dockerize:
+    build: .
+    image: jiralert-dockerize
+    container_name: jiralert-dockerize
+    restart: always
+    privileged: true
+    network_mode: "host"
+    ports:
+     - 9097:9097
