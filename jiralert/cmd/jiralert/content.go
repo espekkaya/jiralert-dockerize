@@ -5,7 +5,7 @@ import (
 	"html/template"
 	"net/http"
 
-	"github.com/espekkaya/jiralert-dockerize/pkg/config"
+	"github.com/espekkaya/jiralert-dockerize/jiralert/pkg/config"
 )
 
 const (

@@ -12,11 +12,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/espekkaya/jiralert-dockerize/pkg/config"
-	"github.com/espekkaya/jiralert-dockerize/pkg/template"
+	"github.com/espekkaya/jiralert-dockerize/jiralert/pkg/config"
+	"github.com/espekkaya/jiralert-dockerize/jiralert/pkg/template"
 
 	"github.com/andygrunwald/go-jira"
-	"github.com/espekkaya/jiralert-dockerize/pkg/alertmanager"
+	"github.com/espekkaya/jiralert-dockerize/jiralert/pkg/alertmanager"
 	"github.com/trivago/tgo/tcontainer"
 )
 

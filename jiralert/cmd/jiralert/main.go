@@ -9,10 +9,10 @@ import (
 	"runtime"
 	"strconv"
 
-	"github.com/espekkaya/jiralert-dockerize/pkg/alertmanager"
-	"github.com/espekkaya/jiralert-dockerize/pkg/config"
-	"github.com/espekkaya/jiralert-dockerize/pkg/notify"
-	"github.com/espekkaya/jiralert-dockerize/pkg/template"
+	"github.com/espekkaya/jiralert-dockerize/jiralert/pkg/alertmanager"
+	"github.com/espekkaya/jiralert-dockerize/jiralert/pkg/config"
+	"github.com/espekkaya/jiralert-dockerize/jiralert/pkg/notify"
+	"github.com/espekkaya/jiralert-dockerize/jiralert/pkg/template"
 	"github.com/go-kit/kit/log"
 	"github.com/go-kit/kit/log/level"
 
